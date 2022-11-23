@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+   
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: demo;
+    src: url(images/myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+    font-family: demo1;
+    src: url(images/Cormorant_Garamond/CormorantGaramond-MediumItalic.ttf);
+}
+@font-face{
+    font-family: demo2;
+    src: url(images/Roboto/Roboto-Light.ttf);
+}
+.main1{
+    position: relative;
+    display: flex;
+}
+.main1 img{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+.main1 .coffee{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1080px;
+}
+.left{
+    width: 50%;
+    padding-left: 20px;
+    position: absolute;
+}
+.left ul{
+    list-style-type: none;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 0px;
+}
+.left ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.left ul li a{
+    font-size: 25px;
+    font-family: demo;
+    color: #000b2c;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+.left li:hover a{
+    background-color: #ff4b00;
+}
+.left h1{
+    font-family: demo1;
+    font-size: 90px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.left h3{
+    font-family: demo;
+    font-size: 30px;
+    margin-left: 30px;
+    color: #ff4b00;
+    margin-top: 30px;
+}
+.left p{
+    font-family: demo2;
+    font-size: 10px;
+    margin-left: 30px;
+    color: #122341;
+    margin-top: 20px;
+}
+button{
+    font-family: demo2;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: #ff4b00;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.main2{
+    margin: 0px;
+    padding: 0px;
+}
+.main2 img{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    margin-top: -250px;
+    margin-left: 575px;
+}
+.main2 p{
+    font-family: demo2;
+    font-size: 15px;
+    color: white;
+    margin-left: 900px;
+    position: absolute;
+    text-align: right;
+    width: 20%;
+}
+.left1 h1{
+    font-family: demo1;
+    font-size: 90px;
+    margin-left: 30px;
+    margin-top: 750px;
+    width: 40%;
+}
+.main2 .cup{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+.main3{
+    display: flex;
+    position: relative;
+}
+.main3 img{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    margin-top: 175px;
+    margin-left: -145px;
+
+}
+.main3 p{
+    font-family: demo2;
+    font-size: 15px;
+    margin-left: 90px;
+    color: white;
+    margin-top: 450px;
+    position: absolute;
+    text-align: left;
+    width: 20%;
+}
+.left2 h1{
+    font-family: demo1;
+    font-size: 90px;
+    margin-left: 800px;
+    margin-top: 400px;
+}
+.main3 .cold{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 450px;
+}
+.main3 button{
+    margin-left: 800px;
+    cursor: pointer;
+}
+.main4{
+    margin: 0px;
+    padding: 0px;
+}
+.main4 img{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    margin-top: -150px;
+    margin-left: 575px;
+}
+.main4 p{
+    font-family: demo2;
+    font-size: 15px;
+    color: white;
+    margin-left: 900px;
+    position: absolute;
+    text-align: right;
+    width: 20%;
+}
+.left3 h1{
+    font-family: demo1;
+    font-size: 90px;
+    margin-left: 30px;
+    margin-top: 350px;
+    width: 40%;
+}
+.main4 .cup1{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 450px;
+}
+.five{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+}
+.five .rec{
+    width: 100%;
+    position: absolute;
+    margin-top: 275px;
+}
+
+.free .free1{
+    width: 30%;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+.leaf .leaf1{
+    width: 30%;
+    margin-top: 600px;
+    margin-left: 500px;
+}
+.right h1{
+    font-size: 100px;
+    width: 80%;
+    font-family: demo1;
+    color: #122341;
+    margin-top: 350px;
+    margin-left: 200px;
+}
+.right h3{
+    font-size: 40px;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    font-family: demo1;
+    color: #122341;
+    border:  1px solid maroon;
+    border-radius: 16px;
+    margin-left: 300px;
+    background-color: lightsalmon;
+}
+.right p{
+    font-size: 15px;
+    width: 60%;
+    font-family: demo1;
+    color: #122341;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.des h2{
+    font-size: 88px;
+    font-family: demo1;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+}
+.des h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 80%;
+    margin-left: 150px;
+    font-family: demo1;
+    margin-top:  50px;
+}
+.des p{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: demo1;
+}
+.customer .girl{
+    width: 100%;
+    position: absolute;
+    margin-top: 70px;
+}
+.john h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 80%;
+    color: white;
+    margin-left: 450px;
+    font-family: demo1;
+    margin-top:  150px;
+    position: absolute;
+}
+.john p{
+    font-size: 25px;
+    color: white;
+    width: 40%;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 250px;
+    font-family: demo1;
+}
+.ella h3{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 80%;
+    color: white;
+    margin-left: 450px;
+    font-family: demo1;
+    margin-top:  550px;
+    position: absolute;
+}
+.ella p{
+    font-size: 25px;
+    color: white;
+    width: 40%;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 650px;
+    font-family: demo1;
+}
+.seven h3{
+    font-size: 80px;
+    width: 80%;
+    color: #122341;
+    margin-left: 450px;
+    font-family: demo;
+    margin-top:  70%;
+    position: absolute;
+}
+.seven img{
+    width: 50%;
+    position: absolute;
+    margin-top:80%;
+    margin-left:25%;
+}
+.eight{
+  position: relative;
+}
+.eight1{
+    display: flex;
+    /* position: relative; */
+}
+.eight h3{
+    font-size: 70px;
+    width: 80%;
+    color: #122341;
+    margin-left: 450px;
+    font-family: demo;
+    margin-top:  120%;
+    position: absolute;
+}
+.one .York{
+    position: absolute;
+    padding-top: 130%;
+    margin-left: 100px;
+}
+.one .York1{
+    position: absolute;
+    padding-top: 150%;
+    margin-left: 90px; 
+}
+.one p{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    width: 25%;
+    position: absolute;
+    margin-left:130px;
+    margin-top: 160%;
+    font-family: demo1;
+}
+.two .Texas{
+    position: absolute;
+    padding-top: 130%;
+    margin-left: 510px;
+}
+.two .Texas1{
+    position: absolute;
+    padding-top: 150%;
+    margin-left: 500px; 
+}
+.two p{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    width: 25%;
+    position: absolute;
+    margin-left:540px;
+    margin-top: 160%;
+    font-family: demo1;
+}
+.three .Jersy{
+    position: absolute;
+    padding-top: 130%;
+    margin-left: 920px;
+}
+.three .Jersy1{
+    position: absolute;
+    padding-top: 150%;
+    margin-left: 910px; 
+}
+.three p{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    width: 25%;
+    position: absolute;
+    margin-left:950px;
+    margin-top: 160%;
+    font-family: demo1;
+}
+.footer{
+    position: relative;
+    margin-top: 180%;
+}
+.footer img{
+    width: 100%;
+}
