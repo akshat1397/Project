@@ -1,0 +1,629 @@
+@font-face {
+    font-family: ab;
+    src: url(images/aachen-bt/aachenn.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.main1{
+    background-image: url(images/background\ header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.main2{
+    display: flex;
+}
+.main3 ul {
+    display: inline-block;
+}
+.main3 ul li{
+    display: inline-block;
+    padding: 40px 0px 20px 90px;
+}  
+.main3 a{
+    font-size: 20px;
+    font-family: ab;
+    text-decoration: none;
+    color: #ffffff;    
+}
+.main3 .foodlover{
+    width: 120px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.main4 {
+    display: flex;
+    width: 100%;
+}
+.main4-left{
+    width: 50%;
+}
+.main4-left .pan {
+    width:500px;
+    margin-left: 10%;
+    margin-top: 10%;
+} 
+.main4-right{
+    width: 50%;
+}
+.main4-right h1{
+    font-size: 40px;
+    font-family: ab;
+    color: #e58f00;
+    width: 50%;
+    padding-top: 100px;
+}
+.main4-right p{
+    font-size: 22px;
+    font-family: ab;
+    color: #ffffff;
+    width: 70%;
+    padding: 20px 20px 20px 0px;
+}
+.main4-right .contact{
+    font-family: ab;
+    font-size: 20px;
+    background-color: #e58f00;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 600px)
+{
+    .main{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main1{
+        background-image: url(images/background\ header.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    .main2{
+        display: flex;
+    }
+    .main3 ul {
+        display: inline-block;
+    }
+    .main3 ul li{
+        display: inline-block;
+        padding: 40px 0px 20px 16px;
+    }  
+    .main3 a{
+        font-size: 15px;
+        font-family: ab;
+        text-decoration: none;
+        color: #ffffff;    
+    }
+    .main3 .foodlover{
+        width: 70px;
+        padding-left: 20px;
+    }
+    .main4 {
+        display: flex;
+        width: 100%;
+    }
+    .main4-left{
+        width: 50%;
+    }
+    .main4-left .pan {
+        width:290px;
+        margin-left: 10%;
+        margin-top: 15%;
+    } 
+    .main4-right{
+        width: 50%;
+    }
+    .main4-right h1{
+        font-size: 25px;
+        font-family: ab;
+        color: #e58f00;
+        width: 60%;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .main4-right p{
+        font-size: 15px;
+        font-family: ab;
+        color: #ffffff;
+        width: 80%;
+        padding: 20px 20px 20px 50px;
+    }
+    .main4-right .contact{
+        font-family: ab;
+        font-size: 15px;
+        background-color: #e58f00;
+        color: black;
+        padding: 10px 10px 10px 10px;
+        margin-top: 1%;
+        margin-left: 15%;
+    }   
+}
+.main5{
+    width: 100%;
+    background-color: black;
+    height: 1500px;
+}
+.main6{
+    display: flex;
+    width: 100%;
+}
+.main6-left{
+    width: 50%;
+}
+.main6-left .group2left{
+    width: 400px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.main6-right{
+    width: 50%;
+    padding-top: 50px;
+}
+.main6-right h4{
+    font-family: ab;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    padding: 60px 20px 20px 0px;
+}
+.main6-right p{
+    font-family: ab;
+    font-size: 25px;
+    color: white;
+    padding: 20px 20px 20px 0px;
+    width: 60%;
+}
+.main7{
+    position: relative;
+}
+.waffles{
+    width: 100%;
+    position: absolute;
+}
+.waffle{
+    
+    width: 1800px;
+    height: 900px;
+    margin-left: -190px;
+    margin-top: 100px;
+    position: absolute;
+}
+.main8{
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 100px;
+
+}
+.main8 h4{
+    font-family: ab;
+    font-size: 40px;
+    color: white;
+    width: 60%;
+    
+}
+.main8 p{
+    font-family: ab;
+    font-size: 18px;
+    color: white;
+    width: 30%;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .main5{
+        width: 100%;
+        background-color: black;
+        height: 1400px;
+    }
+    .main6{
+        display: flex;
+        width: 100%;
+    }
+    .main6-left{
+        width: 50%;
+    }
+    .main6-left .group2left{
+        width: 250px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .main6-right{
+        width: 50%;
+        padding-top: 50px;
+    }
+    .main6-right h4{
+        font-family: ab;
+        font-size: 25px;
+        color: white;
+        font-weight: bolder;
+        padding: 0px 20px 20px 50px;
+    }
+    .main6-right p{
+        font-family: ab;
+        font-size: 15px;
+        color: white;
+        padding: 20px 20px 20px 50px;
+        width: 100%;
+    }
+    .main7{
+        position: relative;
+    }
+    .waffles{
+        width: 100%;
+        position: absolute;
+    }
+    .waffle{
+        width: 680px;
+        height: 900px;
+        margin-left: -80px;
+        margin-top: 100px;
+        position: absolute;
+    }
+    .main8{
+        position: absolute;
+        padding-top: 300px;
+        padding-left: 20px;
+    
+    }
+    .main8 h4{
+        font-family: ab;
+        font-size: 22px;
+        color: white;
+        width: 60%;
+        
+    }
+    .main8 p{
+        font-family: ab;
+        font-size: 18px;
+        color: white;
+        width: 40%;
+        padding-top: 20px;
+    }
+}
+.gallery{
+    background-color: black;
+}
+.gallery h4{
+    color: #ffffff;font-family: ab;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.gallery1{
+    display: inline-block;
+    padding: 80px 10px 10px 70px;
+}
+.gallery1 .one{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.gallery1 .two{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.gallery1 .three{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.gallery1 .four{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.gallery1 .five{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.gallery1 .six{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.mix{
+    background-image: url(images/mixdish.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+}
+.mix1 h3{
+    font-family: ab;
+    font-size: 40px;
+    color: #ffffff;
+    padding-left: 58    0px;
+    padding-top: 250px;
+}
+.mix1 p{
+    font-family: ab;
+    font-size: 30px;
+    color: #ffffff;
+    padding-left: 500px;
+    padding-top: 50px;
+    width: 70%;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+}
+.menu1{
+    display: flex;
+    padding-top: 60px;
+}
+.menu2{
+    width: 350px;
+    height: 400px;
+    padding-left: 150px
+
+}
+.menu2 .menuone{
+    width: 350px;
+    height: 200px;
+    padding-left: 50px;
+}
+.menu2 h5{
+    font-family: ab;
+    width: 350px;
+    font-size: 18px;
+    color: #e58f00;
+    padding: 20px 10px 10px 50px;
+}
+.menu2 p{
+    font-family: ab;
+    font-size: 12px;
+    width: 350px;
+    color: #ffffff;
+    padding: 10px 10px 10px 50px;
+}
+.menu2 h6{
+    font-family: ab;
+    font-size: 18px;
+    width: 350px;
+    color: #e58f00;
+    padding: 10px 10px 10px 50px;   
+}
+.enjoy{
+    width: 100%;
+    background-image: url(images/Rectangle\ group7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 260px;
+    display: flex;
+}
+.enjoy-left{
+    width: 50%;
+}
+.enjoy-left .enjoy1{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-top: -30px;
+}
+.enjoy-right h4{
+    font-family: ab;
+    font-size: 40px;
+    color: #ffffff;
+    width: 50%;
+    padding:30px 10px 10px 10px ;
+}
+.enjoy-right p{
+    font-family: ab;
+    font-size: 28px;
+    color: #ffffff;
+    width: 80%;
+    padding:20px 10px 10px 90px ;
+}
+.footer{
+    background-image: url(images/background\ group8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 280px;
+    padding-top: 20px;
+}
+.footer1 .flogo{
+    width: 100px;
+    margin-left:600px;
+}
+.list ul {
+    display: inline-block;
+    margin-left: 250px;
+}
+.list ul li{
+    display: inline-block;
+    padding:  40px 0px 30px 60px;
+}  
+.list a{
+    font-size: 16px;
+    font-family: ab;
+    text-decoration: none;
+    color: #ffffff;  
+    text-align: center;  
+}
+.media .social{
+    width: 200px;
+    margin-left: 570px;
+}
+@media only screen and (max-width: 600px)
+{
+    .gallery{
+        background-color: black;
+        background-size: 100% ;
+    }
+    .gallery h4{
+        color: #ffffff;font-family: ab;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .gallery1{
+        display: inline-block;
+        padding: 50px 10px 10px 140px;
+    }
+    .gallery1 .one{
+        width: 300px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    .gallery1 .two{
+        width: 300px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    .gallery1 .three{
+        width: 300px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    .gallery1 .four{
+        width: 300px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    .gallery1 .five{
+        width: 300px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    .gallery1 .six{
+        width: 300px;
+        height: 200px;
+        padding: 10px 10px 10px 10px;
+    }
+    .mix{
+        background-image: url(images/mixdish.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 500px;
+    }
+    .mix1 h3{
+        font-family: ab;
+        font-size: 30px;
+        color: #ffffff;
+        padding-left: 210px;
+        padding-top: 100px;
+    }
+    .mix1 p{
+        font-family: ab;
+        font-size: 15px;
+        color: #ffffff;
+        padding-left: 190px;
+        padding-top: 20px;
+        width: 70%;
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu1{
+        display: inline-block;
+    }
+    .menu2{
+        width: 250px;
+        height: 400px;
+        padding-left: 100px
+    }
+    .menu2 .menuone{
+        width: 350px;
+        height: 200px;
+        padding-left: 50px;
+    }
+    .menu2 h5{
+        font-family: ab;
+        width: 350px;
+        font-size: 18px;
+        color: #e58f00;
+        padding: 20px 10px 10px 50px;
+    }
+    .menu2 p{
+        font-family: ab;
+        font-size: 12px;
+        width: 350px;
+        color: #ffffff;
+        padding: 10px 10px 10px 50px;
+    }
+    .menu2 h6{
+        font-family: ab;
+        font-size: 18px;
+        width: 350px;
+        color: #e58f00;
+        padding: 10px 10px 10px 50px;   
+    }
+    .enjoy{
+        width: 100%;
+        background-image: url(images/Rectangle\ group7.png);
+        background-repeat: no-repeat;
+        background-size: 100% 260px;
+        display: flex;
+    }
+    .enjoy-left{
+        width: 50%;
+    }
+    .enjoy-left .enjoy1{
+        width: 250px;
+        height: 260px;
+        position: absolute;
+        margin-top: -30px;
+    }
+    .enjoy-right h4{
+        font-family: ab;
+        font-size: 28px;
+        color: #ffffff;
+        width: 90%;
+        padding:30px 10px 10px 100px ;
+    }
+    .enjoy-right p{
+        font-family: ab;
+        font-size: 15px;
+        color: #ffffff;
+        width: 80%;
+        padding:20px 10px 10px 150px ;
+    }
+    .footer{
+        background-image: url(images/background\ group8.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 180px;
+        padding-top: 20px;
+    }
+    .footer1 .flogo{
+        width: 100px;
+        margin-left:250px;
+    }
+    .list ul {
+        display: inline-block;
+        margin-left: 100px;
+    }
+    .list ul li{
+        display: inline-block;
+        padding:  20px 0px 0px 10px;
+    }  
+    .list a{
+        font-size: 13px;
+        font-family: ab;
+        text-decoration: none;
+        color: #ffffff;  
+        text-align: center;  
+    }
+    .media .social{
+        width: 100px;
+        margin-left: 250px;
+        margin-top: 10px;
+    }   
+}

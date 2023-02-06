@@ -1,0 +1,732 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: demo;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: demo;
+    src: url(images/Dosis-VariableFont_wght.ttf);
+}
+
+.mylogo {
+    cursor: pointer;
+}
+
+.mainul .mainli .maina {
+    color: #0f394c !important;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.mainul .mainli .maina:hover {
+    color: #49b5e7 !important;
+}
+
+.mainul .mainli {
+    color: #49b5e7 !important;
+}
+
+.dropdown .subdropdwon {
+    color: #49b5e7;
+}
+
+.subul .subli .suba {
+    color: #0f394c;
+}
+
+.subul .subli .suba:hover {
+    color: #49b5e7 !important;
+}
+
+.navlink {
+    display: flex;
+    justify-content: right;
+}
+
+.x1 {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+
+.mydes h2 {
+    font-size: 42px;
+    color: #0f394c;
+    font-weight: bolder;
+    font-family: demo;
+}
+
+.mydes p {
+    font-size: 20px;
+    color: #49b5e7;
+    font-family: demo;
+}
+
+.mydes .mybutton {
+    font-family: demo;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 25px;
+    color: #fff;
+    background: #49b5e7;
+    text-transform: uppercase;
+}
+
+.myhero {
+    height: auto;
+}
+
+.myrow {
+    background-color: #f9f9f9;
+    /* background-color: aqua; */
+    height: auto;
+    padding: 50px;
+    margin-top: 96px;
+}
+
+.myenim h3 {
+    font-size: 30px;
+    color: #0f394c;
+    font-weight: bolder;
+    font-family: demo;
+}
+
+.myenim p {
+    font-size: 18px;
+    color: #444444;
+    font-family: demo;
+}
+
+.icon1 i {
+    font-size: 30px;
+}
+
+.icon1 .x {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #d0ecf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #49b5e7;
+}
+
+.icon:hover .icon1 .x {
+    background: #49b5e7;
+    color: white;
+}
+
+.icon2 {
+    margin-left: 20px;
+}
+
+.main4 {
+    background-image: url(images/counts-bg\ bootstarap1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    color: #49b5e7;
+    /* background: rgba(255 ,255, 255, 0.8); */
+}
+
+.start1 h3 {
+    font-size: 36px;
+    color: #0f394c;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+.start1 p {
+    font-size: 16px;
+    color: #0f394c;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.start2 h3 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.start2 span {
+    font-size: 18px;
+    color: #444444;
+}
+
+.myclient {
+    border: 1px solid #fff;
+
+    padding: 10px;
+    filter: grayscale(100%);
+}
+
+.myclient:hover {
+    filter: grayscale(0%);
+}
+
+.client2:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 120px;
+}
+
+.client-logo img {
+    height: 70px;
+    width: 100px;
+    transition: 0.5s;
+}
+
+.main6 {
+    background-color: #f4fbfe;
+    height: auto;
+    padding: 30px;
+}
+
+.myservices h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 50px;
+    color: #0f394c;
+    text-align: center;
+}
+
+.myservices h6 {
+    font-size: 16px;
+    padding-top: 20px;
+    color: #444444;
+    text-align: center;
+}
+
+.myicon {
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.myicon:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: white;
+    box-shadow: 0px 5px 15px 2px;
+}
+
+.icon-box {
+    margin-left: -40px;
+    z-index: 2;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-box1 {
+    margin-left: -40px;
+    z-index: 2;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-box2 {
+    margin-left: -40px;
+    z-index: 2;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-box3 {
+    margin-left: -40px;
+    z-index: 2;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-box4 {
+    margin-left: -40px;
+    z-index: 2;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-box5 {
+    margin-left: -40px;
+    z-index: 2;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.icon-box i {
+    color: #ff689b;
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.icon-box1 i {
+    color: #e9bf06;
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.icon-box2 i {
+    color: #3fcdc7;
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.icon-box3 i {
+    color: #41cf2e;
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.icon-box4 i {
+    color: #d6ff22;
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.icon-box5 i {
+    color: #4680ff;
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.icon-des {
+    height: auto;
+}
+
+.icon-des a {
+    font-size: 20px;
+    color: #111111;
+    text-decoration: none;
+    margin: 0px 0px 15px 30px;
+    font-weight: bolder;
+}
+
+.icon-des p {
+    font-size: 18px;
+    color: #444444;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+    width: 70%;
+}
+
+.myportfolio h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    color: #0f394c;
+    text-align: center;
+}
+
+.myportfolio h6 {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+#filters {
+    list-style: none;
+    text-align: center;
+}
+
+.filter-active {
+    cursor: pointer;
+    display: inline-block;
+    padding: 30px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-active1 {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #4680ff;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter-active:hover {
+    color: #4680ff;
+}
+
+.portfoliohover1:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: white;
+    box-shadow: 0px 5px 15px 2px;
+}
+
+.backimage {
+    position: relative;
+}
+
+.main8 {
+    background: linear-gradient(rgba(27, 70, 97, 0.9), rgba(27, 70, 97, 0.9)), url(images/bootstarp\ background\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    width: 100%;
+    height: 490px;
+    position: relative;
+}
+
+.main8 .swiper .swiper-wrapper .swiper-slide .images {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+}
+
+.main8 .swiper .swiper-wrapper .swiper-slide .images img {
+    border-radius: 50%;
+}
+
+.main8 .swiper .swiper-wrapper .swiper-slide .info {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.main8 .swiper .swiper-wrapper .swiper-slide .info p {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.fa-quote-left {
+    font-size: 30px;
+}
+
+.fa-quote-right {
+    font-size: 30px;
+}
+
+.main9 {
+    background-color: #f4fbfe;
+}
+
+.main9 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #0f394c;
+    padding: 20px;
+}
+
+.main9 p {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.member-info h4 {
+    font-weight: 700;
+    padding: 15px 0px 0px 20px;
+    font-size: 18px;
+    color: #0f394c;
+}
+
+.member-info span {
+    display: block;
+    font-size: 13px;
+    padding: 5px 0px 20px 20px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.member:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: white;
+    box-shadow: 0px 5px 15px 2px;
+}
+
+.main10 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #0f394c;
+    padding: 20px;
+}
+
+.main10 p {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.mygallery-1 {
+    width: 100%;
+    height: auto;
+}
+
+.mygallery-1:hover {
+    animation: zoomIn 0.1s forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.main11 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #0f394c;
+    padding: 20px;
+}
+
+.main11 p {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.y i {
+    font-size: 30px;
+}
+
+.location .y {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #d0ecf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #49b5e7;
+}
+
+.location:hover .location1 .y {
+    background: #49b5e7;
+    color: white;
+}
+
+.location2 {
+    margin-left: 20px;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 18px;
+    width: 100%;
+}
+
+.main12 {
+    width: 100%;
+}
+
+.mytextaera .mybutton4 {
+    font-family: demo;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 25px;
+    color: #fff;
+    background: #49b5e7;
+
+}
+
+.main14 {
+    background-color: #f0f9fd;
+    padding: 30px;
+}
+
+.myjoin h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #0f394c;
+    padding-top: 40px;
+}
+
+.myjoin p {
+    font-size: 18px;
+    text-align: center;
+    color: #0f394c;
+}
+
+.myemail {
+    width: 100%;
+    border: transparent;
+    padding: 4px 8px;
+    border: none;
+}
+
+.mysubmit {
+    background: #fff;
+    position: relative;
+    border-radius: 14px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    text-align: left;
+    /* width: 100%; */
+}
+
+.mysubmit .mybutton5 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 14px;
+    transition: 0.5s;
+    color: #fff;
+    background: #49b5e7;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    border: 0;
+    transition: 0.3s;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    /* margin-left: 170px; */
+}
+
+.mylink {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mylink .mylinkli {
+
+    padding: 10px 0;
+    /* display: flex; */
+    align-items: center;
+}
+
+.mylink .mylinkli a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.mylink .mylinkli a:hover {
+    color: #49b5e7;
+}
+
+.myuseful h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f394c;
+    position: relative;
+    padding-bottom: 12px
+}
+
+.myuseful h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f394c;
+    position: relative;
+    padding-bottom: 12px
+}
+
+.links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #49b5e7;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #0f394c;
+    color: white;
+}
+
+.copyright {
+    background-color: #f0f9fd;
+
+    font-size: 18px;
+    color: #0f394c;
+}
+
+.copyright span {
+    background-color: #f0f9fd;
+    font-size: 18px;
+    color: #0f394c;
+    font-weight: bolder;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #49b5e7;
+    font-size: 18px;
+}

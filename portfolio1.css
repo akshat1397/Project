@@ -1,0 +1,532 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: rubik;
+}
+
+/* @font-face {
+    font-family: san;
+    src: url(images/Nunito_Sans/NunitoSans-Regular.ttf);
+} */
+
+@font-face {
+    font-family: rubik;
+    src: url(images/Rubik/static/Rubik-Regular.ttf);
+}
+
+:root {
+
+    --primary-color1: #3a3973;
+    --primary-color2: #fe4f6c;
+    --primary-color3: #ebf4fa;
+    --primary-color4: #0f394c;
+    --secondary-color1: #ffff;
+    --secondary-color2: rgba(255, 255, 255, 0.7);
+    --secondary-color3: #3a3973;
+    --secondary-color4: #fe4f6c;
+    --secondary-color5: #6F8BA4;
+    --secondary-color6: #0563bb;
+    --secondary-color7: #1f5297;
+    --secondary-color8: #777777; 
+}
+.dark-theme{
+     --primary-color1: #184360;
+    --primary-color2: #184360;
+    --primary-color3: #184360;
+    --primary-color4: #184360;
+    --secondary-color1: #ffff;
+    --secondary-color2: #ffff;
+    --secondary-color3: #ffff;
+    --secondary-color4: #ffff;
+    --secondary-color5: #ffff;
+    --secondary-color6: #ffff;
+    --secondary-color7: #ffff;
+    --secondary-color8: #ffff; 
+}
+
+.xyz {
+    background-color: var(--primary-color1);
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.xyz .mylogo {
+    color: var(--secondary-color1) !important;
+    font-size: 25px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.main2 .mybutton {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    margin-left: 15px;
+    background-color: var(--primary-color2);
+    border: none;
+
+}
+
+.mainul .mainli .maina {
+    color: var(--secondary-color2)!important;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.mainul .mainli .maina:hover {
+    color:#ffff !important;
+}
+
+.moon1{
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: var(--secondary-color4);
+    border-radius: 50%;
+    border: 2px solid #fe4f6c;
+    position: fixed;
+    top: 100px;
+    z-index: 100;
+
+}
+
+.navlink {
+    display: flex;
+    justify-content: right;
+}
+
+.myrow {
+    background-color:var(--primary-color3);
+    height: auto;
+    padding: 40px;
+
+}
+
+.mydes {
+    width: 100%;
+}
+
+.mydes h6 {
+    font-size: 25px;
+    color: var(--secondary-color3);
+    font-weight: bolder;
+    font-family: rubik;
+}
+
+.mydes h1 {
+    font-size: 60px;
+    color: var(--secondary-color4);
+    font-weight: bolder;
+    font-family: rubik;
+}
+
+.mydes h2 {
+    font-size: 18px;
+    color: var(--secondary-color3);
+    font-family: rubik;
+}
+
+.mydes p {
+    font-size: 18px;
+    color: var(--secondary-color3);
+    font-family: rubik;
+}
+
+.links a {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: var(--primary-color2);
+    color: var(--secondary-color1);
+    padding: 0px 10px;
+    line-height: 40px;
+    display: inline-block;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #0f394c;
+    color: white;
+}
+
+.myimages .mypic {
+    width: 100%;
+    height: auto;
+}
+
+.mydes1 h3 {
+    font-size: 45px;
+    color: var(--secondary-color3);
+    font-weight: bolder;
+    font-family: rubik;
+}
+
+.mydes1 h4 {
+    font-size: 24px;
+    color: var(--secondary-color4);
+    font-weight: bolder;
+    font-family: rubik;
+}
+
+.mydes1 p {
+    font-size: 18px;
+    color: var(--secondary-color5);
+    font-family: rubik;
+}
+
+.mydes1 .mybutton1 {
+    text-align: center;
+    margin-right: 10px;
+    background-color: var(--primary-color2);
+    color: var(--secondary-color1);
+    padding: 0px 20px;
+    line-height: 42px;
+    position: relative;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.mydes1 .mybutton1:hover {
+    color: white;
+    background-color: #3a3973;
+}
+
+.cv {
+    text-align: center;
+    margin-right: 10px;
+    background-color: var(--primary-color2);
+    color: var(--secondary-color1);
+    padding: 10px 20px;
+    line-height: 42px;
+    position: relative;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cv:hover {
+    color: white;
+    background-color: #3a3973;
+}
+
+.myul {
+    list-style: none;
+    padding: 0px;
+}
+
+.myli {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-family: rubik;
+    color: var(--secondary-color3);
+}
+
+.myli i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: var(--secondary-color6);
+    line-height: 0;
+}
+
+.myli strong {
+    margin-right: 10px;
+}
+.main3{
+    background-color: var(--primary-color3);
+}
+.main4 {
+    background-color: var(--primary-color3);
+    height: auto;
+}
+
+.main4 h3 {
+    text-align: center;
+    font-size: 45px;
+    color: var(--secondary-color3);
+    font-weight: bolder;
+    font-family: rubik;
+}
+
+.myresume1 .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+    height: 150px;
+
+}
+.resume-item{
+    
+    color: var(--secondary-color3);
+
+}
+.myresume1 .resume-item:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background-color: var(--primary-color3);
+    border: 2px solid #1f5297
+}
+.main6{
+    background-color: var(--primary-color3);
+}
+
+.main6 h2 {
+    text-align: center;
+    font-size: 45px;
+    color: var(--secondary-color3);
+    font-weight: bolder;
+    font-family: rubik;
+}
+
+.main6 h3 {
+    text-align: center;
+    font-size: 18px;
+    color: var(--secondary-color5);
+    font-family: rubik;
+}
+
+.myresume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+    height: 105px;
+
+}
+
+.myresume .resume-item1 {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+    height: 105px;
+    color: var(--secondary-color3);
+
+}
+
+.myresume .resume-item2 {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+    height: 105px;
+    color: var(--secondary-color3);
+
+}
+
+.myresume .resume-item:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background-color: #ebf4fa;
+    border: 2px solid #1f5297
+}
+
+.myresume .resume-item1:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0px;
+    background-color: #ebf4fa;
+    border: 2px solid #1f5297
+}
+
+.myresume .resume-item2:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0px;
+    background-color: #ebf4fa;
+    border: 2px solid #1f5297
+}
+
+.myresume h4 {
+    font-size: 30px;
+    color: var(--secondary-color4);
+}
+
+.resume-item1 h5 {
+    font-size: 20px;
+
+}
+
+.resume-item1 p {
+    font-size: 18px;
+
+}
+
+.resume-item1 h6 {
+    font-size: 16px;
+    background-color: var(--primary-color3);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.main7{
+    background-color: var(--primary-color3);
+}
+.myportfolio h4 {
+    font-size: 35px;
+    text-align: center;
+    color: var(--secondary-color7);
+    font-weight: bolder;
+}
+
+.portfolio {
+    position: relative;
+    cursor: pointer;
+}
+.portfolio img {
+    width: 100%;
+    height: 100%;
+    box-shadow: -2px 3px 15px black;
+    vertical-align: middle;
+    margin-bottom: 20px
+}
+.main9{
+    background-color: var(--primary-color3);
+}
+.mycontact h2 {
+    font-size: 35px;
+    text-align: center;
+    color: var(--secondary-color7);
+    font-weight: bolder;
+}
+
+.mycontact p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--secondary-color5);
+}
+
+.y i {
+    font-size: 30px;
+}
+
+.location .y {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #fe4f6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--secondary-color4);
+}
+
+.location:hover .location1 .y {
+    background-color: var(--primary-color1);
+    color: white;
+    border: 2px solid #3a3973;
+}
+
+.location .location2 h4 {
+    font-size: 20px;
+    color: var(--secondary-color3);
+    font-weight: bold;
+}
+
+.location .location2 p {
+    font-size: 16px;
+    color: #6F8BA4;
+}
+
+.myform .myformval .label1{
+    color:var(--secondary-color3) ;
+}
+
+.mysubmit .mybutton1 {
+    text-align: center;
+    margin-right: 10px;
+    background-color: var(--primary-color2);
+    color: #ffffff;
+    padding: 0px 20px;
+    line-height: 42px;
+    position: relative;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.mysubmit .mybutton1:hover {
+    color: white;
+    background-color: #3a3973;
+}
+
+.mylink {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mylink .mylinkli {
+    padding: 10px 0;
+    align-items: center;
+}
+
+.mylink .mylinkli a {
+    color: var(--secondary-color8);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.mylink .mylinkli a:hover {
+    color: #3a3973;
+}
+
+ .footer-top .myuseful{
+    color: var(--secondary-color3);
+}
+
+.footer-top {
+    background-color: var(--primary-color3);
+}
+
+.mycopyright .copyright {
+    background-color: var(--primary-color1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+s

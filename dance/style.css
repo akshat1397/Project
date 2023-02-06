@@ -1,0 +1,583 @@
+.logo img
+{
+    width:100px;
+    height:90px;
+    float: left;
+}
+.tag{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    float: left; 
+    margin-top: -20px;
+}
+.number{
+    float: left;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: relative;
+    color: grey;
+
+}
+.address{
+    margin-left: 1100px;
+    float: left;
+    margin-top: -10px;
+    position: absolute;
+    color: grey;
+    
+}
+.menu
+{ 
+    font-size:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding:15px 12px;
+}
+.search img{
+    height: 40px;
+    float: left;
+    margin-left: 305px;
+    padding-left: 10px;
+}
+.cart img{
+    height: 40px;
+    float: right;
+    padding-right: 50px;
+}
+.dance img{
+    height: 600px;
+    width: 100%;
+    opacity: 0.5;
+}
+.tagline{
+    color:black;
+    font-weight: 50px;
+    font-size: 59px;
+    bottom: 500px;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 12px;   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.sentence{
+    color: red;
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: -50px;
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data{
+    text-align: center;
+    padding-right: 200px;
+    margin-top: 30px;
+    /* padding-left: 10px; */
+}
+.batch p{
+    border-left: 3px solid;
+    height: 35px;
+}
+.batch{
+    float: left;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F1F1F1;
+}
+.main1{
+    background-color:#F1F1F1;
+    padding-bottom: 300px;
+    margin-top: -300px;
+}
+.main2{
+    background-color: black;
+    color: gray;
+    font-weight: bolder;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.one{
+    float: left;
+    padding: 05px;
+    
+}
+.main3::before{
+    content: ' 20 ' ;
+    color: white;
+    font-size: 70px;    
+    padding-left: 60px;
+}
+.main3{
+    display: flex;
+}
+.main4::before{
+    content: ' 7 ' ;
+    color: white;
+    font-size: 80px;    
+    padding-left: 80px;
+}
+.main4{
+    display: flex;
+    padding-top: 20px;
+}
+.main5::before{
+    content: ' 26 ';
+    color: white;
+    font-size: 70px;    
+    padding-left: 150px;
+}
+.main5{
+    display: flex;
+    padding-top: 20px;
+}
+.main6::before{
+    content: ' 18 ' ;
+    color: white;
+    font-size: 70px;    
+    padding-left: 150px;
+}
+.main6{
+    display: flex;
+    padding-top: 20px;
+}
+.main7{
+    background-color: #F1F1F1;
+}
+.studio span{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.studio p{
+    border-left: 5px solid;
+    font-size: 20px;
+    height: 160px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.studio{
+    padding-left: 100px;  
+}
+.studio span img{
+    float: right;
+    margin-right: 100px;
+    height:320px;
+    width: 400px;
+}
+.main8{
+    display: flex;
+}
+.main8 img{
+    height: 450px;
+    width: 650px;
+}
+.style{
+    margin-top: 100px;
+    padding-left: 100px;
+    
+}
+.style span{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.style p{
+    font-size: 20px;
+    height: 50px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 5px solid;
+}
+.main9{
+    background-color: white;
+    display: flex;
+}
+.lessons span{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.lessons p{
+    border-left: 5px solid;
+    font-size: 20px;
+    height: 50px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lessons{
+    padding-left:100px;  
+    margin-top: 100px;
+}
+.style1 img{
+width: 600px;
+height: 450px;
+margin-left: 90px;
+}
+.main10{
+    background-color: white;
+    display:flex;
+
+}
+.session span{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.session p{
+    border-left: 5px solid;
+    font-size: 20px;
+    height: 50px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.session{
+    padding-left: 100px;  
+    margin-top: 100px;
+    
+}
+.main10 img{
+    float: right;
+    height: 450px;
+    width: 650px;
+}
+.main11{
+    background-color:#F1F1F1;
+    width: 100%;
+    height: 1000px;
+}
+.main11 span{
+    font-size: 40px;
+}
+.head{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 90px;
+}
+.coaches{       
+    color: black;
+    width: 27%  ;
+    margin: 40px;
+    float: left;
+}
+.coaches img{        
+     width: 350px;
+     height: 350px;
+}
+.coaches h4{
+    color: #cbcbd4;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coaches p{
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 3px solid;
+    color: #cbcbd4;
+    font-weight: bold;
+}
+.test{
+    position: relative;
+    
+}
+.test img{
+    height: 600px;
+    width: 100%;
+    
+}
+.tetag{
+    color:white;
+    font-weight: 50px;
+    font-size: 59px;
+    bottom: 550px;
+    position: relative;
+    text-align: center;
+    font-style: normal; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.teimg{
+    margin-bottom: 100px;
+    color:white  ;
+    font-weight: 50px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    margin-top: -500px;
+    margin-left:200px;
+}
+.teimg img{
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+.teimg h3{
+  position: absolute;
+ margin-top: 250px;
+ margin-left: 50px;   
+}
+.teimg h4{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 50px;  
+}
+.teimg p{
+ margin-left: 300px;
+ width: 80%;
+ margin-top:60px;
+ font-size: 25px;
+}
+.main13{
+    background-color:#F1F1F1;
+    width: 100%;
+    height: 850px;
+}
+.main13 span{
+    font-size: 40px;
+}
+.events{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
+.west{       
+    color: black;
+    width: 27%  ;
+    margin: 40px;
+    float: left;
+}
+.west img{        
+     width: 350px;
+     height: 350px;
+}
+.west h2{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.west h4{
+    color: #cbcbd4;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.viewall{
+    margin-left: 500px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.add{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    width: 25%;
+    margin: 50px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.googlemap img{
+    height: 450px;
+    width: 100%;
+    opacity: 0.8;
+}
+footer{
+    background-color:black;
+    display: flex;
+    height: 460px;
+
+}
+footer li{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ci{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.ci p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.num{
+    display: flex;
+    padding-top: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.num p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.mail{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.mail p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.calendar{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.calendar p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.how{
+    display: flex;
+    padding-top: 10px;
+    color: white;
+}
+.how p{
+    margin-left: 20px;
+    margin-top: -25px;
+    font-weight: bolder;
+    color: grey;
+}
+.how img{
+    margin-top: -15px;
+}
+.how1 p{
+    margin-left: 90px;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: grey;
+}
+.how1 img{
+    margin-top: -15px;
+}
+.fa{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.fa p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.twi{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.twi p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.go{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.go p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.yo{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.yo p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.ins{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+    margin-left: 30px;
+}
+.ins p{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+}
+.about{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.classes{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.gallery{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.tarningprograms{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.blogs{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.contacts{
+    margin-left: 20px;
+    margin-top: -02px;
+    font-weight: bolder;
+    color: grey;
+}
+.copyright {
+font-size: 25px;
+color: white;
+background-color: black;
+font-weight: bolder;
+
+}
